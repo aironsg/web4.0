@@ -1,11 +1,48 @@
 * {
+    /* limpando todos os espaçamentos padroes do codigo html*/
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Arial Narrow Bold', Arial, sans-serif;
     background: #fff url("../imagens/fundo.png") repeat-x;
+}
+
+ul {
+    /*Limpando todos os espaçamentos padroes da ul*/
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.3em;
+    line-height: 1.7em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background: url("../imagens/divisor.png") no-repeat left;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
 }
 
 #container {
@@ -24,4 +61,16 @@ body {
     height: 66px;
     background: url("../imagens/logo.png") no-repeat left top;
     text-indent: -3000px;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
 }
