@@ -74,3 +74,52 @@ body.fotos #navegacao a#fotos {
     background: #de003e;
     cursor: text;
 }
+
+
+/*
+    Acima temos todo css do topo da pagina
+    este se refere a toda parte de navegação do topo das paginas
+*/
+
+
+/*
+    Abaixo temos o css responsavel pelas colunas do site
+*/
+
+#conteudo {
+    background: #f5f5f5 url("../imagens/fundo-caixa.png");
+    margin-top: 60px;
+}
+
+#primario {
+    background: blue;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario {
+    background: red;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral {
+    background: yellow;
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: bolder;
+}
