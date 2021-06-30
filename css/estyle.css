@@ -127,6 +127,10 @@ body.fotos #navegacao a#fotos {
     margin: 0 0 20px 0px;
 }
 
+#uma-coluna #primario h3 {
+    font-size: 1.5em;
+}
+
 #secundario {
     width: 270px;
     float: left;
@@ -204,6 +208,19 @@ h3 {
 }
 
 
+/*barra de navegação*/
+
+a:link,
+a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
+
+
 /*Formatando lista de noticias*/
 
 #lista-noticias li {
@@ -229,7 +246,12 @@ h3 {
 }
 
 #lista-noticias li a p {
+    color: #000;
     font-size: 0.8em;
+}
+
+#lista-noticias li:hover {
+    background: #eee;
 }
 
 .destaque h3 {
